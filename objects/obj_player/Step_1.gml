@@ -1,0 +1,2 @@
+lastX = x;
+lastY = y;
