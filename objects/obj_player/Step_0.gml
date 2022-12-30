@@ -1,5 +1,5 @@
 currentX += global.horizontal * entitySpeed;
-currentY += 0.4;
+currentY += 0.3;
 
 if(global.horizontal == 0) {
 	if(currentX > 0 && currentX >= entitySpeed) {
@@ -64,10 +64,10 @@ if(!place_meeting(x, y + round(currentY), ground_group)) {
 	currentY = 0;
 }
 
-if(!jumping && currentY < 0 && !onGround) {
+if(!jumping && currentY < 0 && !onGround && obj_player_sprite.sprite_index != spr_player_falling) {
 	jumping = true;
 	obj_player_sprite.image_index = 0;
-} else if(jumping && currentY >= 0 && !onGround) {
+} else if(jumping && obj_player_sprite.image_index >= obj_player_sprite.image_number - 1) {
 	jumping = false;
 	obj_player_sprite.image_index = 0;
 }
