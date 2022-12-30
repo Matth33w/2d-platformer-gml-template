@@ -11,6 +11,7 @@
     {"id":{"name":"ground_group","path":"objects/ground_group/ground_group.yy",},"order":1,},
     {"id":{"name":"obj_slope","path":"objects/obj_slope/obj_slope.yy",},"order":3,},
     {"id":{"name":"spr_player_falling","path":"sprites/spr_player_falling/spr_player_falling.yy",},"order":3,},
+    {"id":{"name":"spr_player_run","path":"sprites/spr_player_run/spr_player_run.yy",},"order":4,},
     {"id":{"name":"spr_player_jump","path":"sprites/spr_player_jump/spr_player_jump.yy",},"order":2,},
     {"id":{"name":"game_manager","path":"objects/game_manager/game_manager.yy",},"order":0,},
     {"id":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},"order":2,},

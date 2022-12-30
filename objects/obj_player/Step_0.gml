@@ -15,6 +15,9 @@ if(global.horizontal == 0) {
 	}
 }
 
+if(onGround)
+	xMax = global.run ? 5 : 3;
+
 currentX = clamp(currentX, -xMax, xMax);
 currentY = clamp(currentY, -yMax, yMax);
 
@@ -76,7 +79,7 @@ if(onGround) {
 	jumpingTimeout = 10;
 	
 	if(!place_meeting(x + currentX, y - abs(round(currentX)), ground_group) && global.horizontal != 0) {
-		obj_player_sprite.sprite_index = spr_player_walk;
+		obj_player_sprite.sprite_index = global.run ? spr_player_run : spr_player_walk;
 	} else {
 		obj_player_sprite.sprite_index = spr_player_idle;
 	}
