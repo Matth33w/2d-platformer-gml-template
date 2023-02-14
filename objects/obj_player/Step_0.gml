@@ -16,7 +16,7 @@ if(global.horizontal == 0) {
 }
 
 if(onGround)
-	xMax = global.run ? 5 : 3;
+	xMax = global.run ? 4 : 2;
 
 currentX = clamp(currentX, -xMax, xMax);
 currentY = clamp(currentY, -yMax, yMax);
@@ -78,7 +78,7 @@ if(!jumping && currentY < 0 && !onGround && obj_player_sprite.sprite_index != sp
 if(onGround) {
 	jumpingTimeout = 10;
 	
-	if(!place_meeting(x + currentX, y - abs(round(currentX)), ground_group) && global.horizontal != 0) {
+	if(lastX != x && global.horizontal != 0) {
 		obj_player_sprite.sprite_index = global.run ? spr_player_run : spr_player_walk;
 	} else {
 		obj_player_sprite.sprite_index = spr_player_idle;
@@ -102,6 +102,8 @@ if(obj_player_sprite.sprite_index == spr_player_jump &&  obj_player_sprite.image
 	   obj_player_sprite.image_speed = 0;
 }
 
+/* Enable this if you don't want the falling animation to loop
+
 if(obj_player_sprite.sprite_index == spr_player_falling &&  obj_player_sprite.image_index >= obj_player_sprite.image_number - 1) {
 	   obj_player_sprite.image_speed = 0;
-}
+}*/

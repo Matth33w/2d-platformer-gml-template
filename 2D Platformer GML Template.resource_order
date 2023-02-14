@@ -1,0 +1,25 @@
+{
+  "FolderOrderSettings": [
+    {"name":"managers","order":4,"path":"folders/managers.yy",},
+    {"name":"objects","order":3,"path":"folders/objects.yy",},
+    {"name":"scenes","order":2,"path":"folders/scenes.yy",},
+    {"name":"sprites","order":1,"path":"folders/sprites.yy",},
+    {"name":"engine","order":2,"path":"folders/sprites/engine.yy",},
+    {"name":"player","order":1,"path":"folders/sprites/player.yy",},
+    {"name":"jumgle","order":3,"path":"folders/sprites/jumgle.yy",},
+    {"name":"tilesets","order":5,"path":"folders/tilesets.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"spr_slope","order":2,"path":"sprites/spr_slope/spr_slope.yy",},
+    {"name":"scene_manager","order":2,"path":"objects/scene_manager/scene_manager.yy",},
+    {"name":"spr_ground","order":1,"path":"sprites/spr_ground/spr_ground.yy",},
+    {"name":"spr_player_walk","order":1,"path":"sprites/spr_player_walk/spr_player_walk.yy",},
+    {"name":"ground_group","order":1,"path":"objects/ground_group/ground_group.yy",},
+    {"name":"obj_slope","order":3,"path":"objects/obj_slope/obj_slope.yy",},
+    {"name":"spr_player_falling","order":3,"path":"sprites/spr_player_falling/spr_player_falling.yy",},
+    {"name":"spr_player_run","order":4,"path":"sprites/spr_player_run/spr_player_run.yy",},
+    {"name":"spr_player_jump","order":2,"path":"sprites/spr_player_jump/spr_player_jump.yy",},
+    {"name":"obj_ground","order":2,"path":"objects/obj_ground/obj_ground.yy",},
+    {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
+  ],
+}
