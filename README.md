@@ -8,4 +8,8 @@ This was made to fasten development of 2D platforming games that are made in Gam
 In case if you want to use the code, feel free to.
 Credits are not necessary, but if you want to support me, I would be very grateful. =)
 
-Follow me on [Game Jolt](https://gamejolt.com/@Matth33w)
+### Credits
+- [Azuri](https://www.instagram.com/azuresplashes/) - Nutch pixel art
+- [KamiJoJo](https://twitter.com/KamiJoJo_) - Jungle Tile Set sprites
+
+Don't forget to follow me on [Game Jolt](https://gamejolt.com/@Matth33w)
